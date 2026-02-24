@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router-dom";
 import HomePage from "@pages/HomePage";
 import ProductsPage from "@pages/ProductsPage";
 import ProductDetailsPage from "@pages/ProductDetailsPage";
+import CartPage from "@pages/CartPage";
 import ContactPage from "@pages/ContactPage";
 // Common Components:
 import NavigraitonBar from "@components/Layout/NavigationBar";
@@ -20,6 +21,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/product/:id" element={<ProductDetailsPage />} />
+        <Route path="/cart" element={<CartPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
       {/* Faqs */}
