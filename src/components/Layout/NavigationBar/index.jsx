@@ -47,6 +47,7 @@ function NavigraitonBar() {
                                 </Button>
                                 <Button
                                     to={'/contact'}
+                                    className="font-medium"
                                 >Contact</Button>
                             </div>
                         </div>

@@ -23,10 +23,10 @@ function Button({ variant = "primary", to, href, type, className, children, ...p
         primaryLight: "bg-brown-80 text-dark-06 sm:hover:bg-brown-90",
         secondary: "bg-dark-10 text-white sm:hover:bg-dark-12",
         dark: "bg-dark-12 text-white sm:hover:bg-dark-15",
-        dashed: "bg-transparent border border-dashed border-dark-20"
+        dashed: "bg-transparent text-grey-70 border border-dashed border-dark-20"
     }
 
-    const classNames = `px-4 py-2 sm:py-3 rounded-md font-semibold transition duration-300 ease-in-out ${variants[variant]}${className ? ` ${className}` : ""}`;
+    const classNames = `px-4 py-2 sm:py-3 rounded-md transition duration-300 ease-in-out ${variants[variant]}${className ? ` ${className}` : ""}`;
 
     if (href) {
         return (
@@ -44,6 +44,7 @@ function Button({ variant = "primary", to, href, type, className, children, ...p
         return (
             <Link
                 to={to}
+                {...props}
                 className={classNames}
             >
                 {children}
