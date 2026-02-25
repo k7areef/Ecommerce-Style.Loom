@@ -60,7 +60,6 @@ button:focus {
 
 p {
   font-size: 14px;
-  color: var(--color-grey-60);
 }
 
 @media (min-width: 768px) {

@@ -1,0 +1,93 @@
+{
+  "title": "Elevate Your Style with Our Latest Collection",
+  "description": "Each piece is crafted to enhance your fashion statement.",
+  "types": [
+    { "id": 1, "title": "All" },
+    { "id": 2, "title": "Men" },
+    { "id": 3, "title": "Women" },
+    { "id": 4, "title": "Kids" }
+  ],
+  "parentCategories": ["Dress Collection", "Accessories", "Bags and HandBags"],
+  "products": [
+    {
+      "id": 1,
+      "title": "Timeless A-line Evening Dress",
+      "fit": "Ankle-length",
+      "price": "$109.99",
+      "parentCategory": "Dress Collection",
+      "category": "Womenswear"
+    },
+    {
+      "id": 2,
+      "title": "Floral Bloom Maxi Dress",
+      "fit": "Slim Fit",
+      "price": "$54.99",
+      "parentCategory": "Dress Collection",
+      "category": "Womenswear"
+    },
+    {
+      "id": 3,
+      "title": "Elegant Evening Gown",
+      "fit": "Flowing skirt",
+      "price": "$89.99",
+      "parentCategory": "Dress Collection",
+      "category": "Womenswear"
+    },
+    {
+      "id": 4,
+      "title": "Urban Chic Handbag",
+      "fit": "Spacious",
+      "price": "$49.99",
+      "parentCategory": "Accessories",
+      "category": "Accessories"
+    },
+    {
+      "id": 5,
+      "title": "Sophisticate Sun Hat",
+      "fit": "One size fits all",
+      "price": "$24.99",
+      "parentCategory": "Accessories",
+      "category": "Accessories"
+    },
+    {
+      "id": 6,
+      "title": "Boho Chic Printed Scarf",
+      "fit": "Lightweight",
+      "price": "$19.99",
+      "parentCategory": "Dress Collection",
+      "category": "Womenswear"
+    },
+    {
+      "id": 7,
+      "title": "Timeless Fedora",
+      "fit": "Any face shape",
+      "price": "$79.99",
+      "parentCategory": "Accessories",
+      "category": "Accessories"
+    },
+    {
+      "id": 8,
+      "title": "Bold Backpack",
+      "fit": "Roomy interior",
+      "price": "$129.99",
+      "parentCategory": "Bags and HandBags",
+      "category": "Hand Bag"
+    },
+    {
+      "id": 9,
+      "title": "Night Out Glam",
+      "fit": "Compact size",
+      "price": "$79.99",
+      "parentCategory": "Bags and HandBags",
+      "category": "Hand Bag"
+    },
+    {
+      "id": 10,
+      "title": "Urban Chic Handbag",
+      "fit": "Spacious",
+      "price": "$49.99",
+      "parentCategory": "Bags and HandBags",
+      "category": "Hand Bag"
+    }
+  ]
+}

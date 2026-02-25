@@ -1,14 +1,9 @@
 import Hero from "@assets/images/hero.png";
-import Button from "@components/UI/Button";
-
-const filterTypes = [
-    { value: "all", label: "All" },
-    { value: "men", label: "Men" },
-    { value: "women", label: "Women" },
-    { value: "kids", label: "Kids" },
-]
+import Tabs from "@components/common/Tabs";
+import data from "@data/products.json";
 
 function HeroSection() {
+    const { types } = data;
     return (
         <section className="hero-section py-5 md:py-10" id="heroSection">
             <div className="container">
@@ -18,20 +13,7 @@ function HeroSection() {
                     </div>
                     <div className="content-wrappr grid md:grid-cols-2">
                         <div className="text-area p-3 sm:p-5 md:p-10">
-                            <div className="fast-filter flex items-center gap-2 mb-5">
-                                {
-                                    filterTypes.map((filterType, index) => (<Button
-                                        to={'/products?type=' + filterType.value}
-                                        variant="dashed"
-                                        key={index}
-                                        title={filterType.label}
-                                        aria-label={filterType.label}
-                                        className="sm:min-w-16 text-center"
-                                    >
-                                        {filterType.label}
-                                    </Button>))
-                                }
-                            </div>
+                            <Tabs tabs={types} className="mb-5" to="products?type=" />
                             <div className="text-wrapper">
                                 <h1 className="font-semibold uppercase font-roboto text-lg sm:text-xl md:text-2xl mb-2">Elevate Your Style with StyleLoom</h1>
                                 <p className="text-grey-50!">

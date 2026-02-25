@@ -17,7 +17,7 @@ function NavigraitonBar() {
     return (
         <nav>
             <div className="container">
-                <div className="content-wrapper border-dashed border-b border-b-dark-15 py-4 flex items-center justify-between max-md:flex-wrap">
+                <div className="content-wrapper border-dashed border-b-2 border-b-dark-15 py-4 flex items-center justify-between max-md:flex-wrap">
                     <AppLogo className={'max-md:-order-1 md:order-1'} />
                     <div className={`links-wrapper grid transition-all duration-200 ${isOpen ? "max-md:grid-rows-[1fr] max-md:opacity-100 max-md:mt-5" : "max-md:grid-rows-[0fr] max-md:opacity-0 max-md:mt-0"} max-md:w-full`}>
                         <div className="overflow-hidden">
@@ -26,7 +26,7 @@ function NavigraitonBar() {
                                     links.map((link, index) => (<li key={index}>
                                         <NavLink
                                             to={link.to}
-                                            className={({ isActive }) => `block transition duration-200 ease-in rounded-md py-2 px-4 border border-dashed ${isActive ? "bg-dark-10 border-transparent" : "border-dark-15 text-grey-70 sm:hover:bg-dark-10 sm:hover:border-transparent sm:hover:text-inherit"}`}
+                                            className={({ isActive }) => `block transition duration-200 ease-in rounded-md py-2 px-4 border-2 border-dashed ${isActive ? "bg-dark-10 border-transparent" : "border-dark-15 text-grey-70 sm:hover:bg-dark-10 sm:hover:border-transparent sm:hover:text-inherit"}`}
                                         >
                                             {link.label}
                                         </NavLink>
