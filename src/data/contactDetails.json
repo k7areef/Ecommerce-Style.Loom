@@ -1,0 +1,27 @@
+{
+  "title": "Your Partner in Every Step of Your Fashion Journey.",
+  "description": "24/7 Assistance for Seamless Shopping and Unmatched Customer Satisfaction.",
+  "details": [
+    {
+      "id": 1,
+      "href": "mailto:kh3reef@gmail.com",
+      "name": "Email",
+      "icon": "email",
+      "label": "kh3reef@gmail.com"
+    },
+    {
+      "id": 2,
+      "href": "tel:+201122124968",
+      "name": "Phone",
+      "icon": "phone",
+      "label": "+20 1122124968"
+    },
+    {
+      "id": 3,
+      "href": "https://www.google.com/maps",
+      "name": "Location",
+      "icon": "locationDot",
+      "label": "Get Direction"
+    }
+  ]
+}
