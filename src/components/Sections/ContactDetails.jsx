@@ -30,7 +30,7 @@ function ContactDetails() {
                                 details.map((contact, index) => (<div className="contact-card p-5 md:p-10 relative border-dashed border-dark-15 border-s-2 max-md:nth-last-of-type-[1]:border-s-0 max-md:nth-last-of-type-[3]:border-s-0 max-md:nth-of-type-[2]:border-s-0 nth-of-type-[1]:border-s-0 max-lg:nth-last-of-type-[2]:border-s-0 max-lg:nth-last-of-type-[4]:border-s-0 lg:nth-of-type-[4]:border-s-0 border-b-2 nth-last-of-type-[1]:border-b-0 md:nth-last-of-type-[2]:border-b-0 lg:nth-last-of-type-[3]:border-b-0" key={index}>
                                     <div className="icon-wrapper w-17 h-17 rounded-full border-2 border-dashed border-dark-15 flex items-center justify-center relative before:absolute before:h-full before:w-0.5 before:bg-dark-15 before:left-1/2 before:-translate-x-1/2 before:top-0 after:absolute after:h-0.5 after:w-full after:bg-dark-15 after:top-1/2 after:-translate-y-1/2 after:left-0 mx-auto mb-5">
                                         <div className="icon-container relative z-1 w-3/4 h-3/4 rounded-full bg-dark-15 flex items-center justify-center">
-                                            <img src={iconsMaper[contact.icon]} alt={contact.title} width={25} className="" />
+                                            <img src={iconsMaper[contact.icon]} alt={contact.title} width={25} />
                                         </div>
                                     </div>
                                     <h3 className="font-medium text-center mb-2">{contact.name}</h3>
