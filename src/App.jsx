@@ -10,6 +10,11 @@ import NavigraitonBar from "@components/Layout/NavigationBar";
 import Faqs from "@components/Layout/Faqs";
 import CTA from "@components/Layout/CTA";
 import Footer from "@components/Layout/Footer";
+// Icons
+import { library } from '@fortawesome/fontawesome-svg-core';
+import { faFacebook, faInstagram, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faArrowRight, faArrowUp } from "@fortawesome/free-solid-svg-icons";
+library.add(faFacebook, faTwitter, faInstagram, faLinkedin, faArrowRight, faArrowUp);
 
 function App() {
   return (

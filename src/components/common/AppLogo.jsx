@@ -8,6 +8,10 @@ import logoMobile from "@assets/images/logo/mobile.png";
  * @prop {string} [className]
  */
 
+/**
+ * @param {AppLogoProps} props
+ */
+
 function AppLogo({ className }) {
     return (
         <Link

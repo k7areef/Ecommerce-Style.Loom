@@ -1,0 +1,18 @@
+[
+  {
+    "href": "https://www.facebook.com",
+    "icon": "facebook",
+    "title": "Facebook"
+  },
+  { "href": "https://www.twitter.com", "icon": "twitter", "title": "Twitter" },
+  {
+    "href": "https://www.instagram.com",
+    "icon": "instagram",
+    "title": "Instagram"
+  },
+  {
+    "href": "https://www.linkedin.com",
+    "icon": "linkedin",
+    "title": "Linkedin"
+  }
+]

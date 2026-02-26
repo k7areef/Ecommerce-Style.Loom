@@ -1,5 +1,4 @@
 import Button from "@components/UI/Button";
-import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import abstract from "@assets/images/cta-abstract.svg";
 
@@ -19,7 +18,7 @@ function CTA() {
                         className="shrink-0 flex items-center justify-center gap-2"
                     >
                         <span>Shop Now</span>
-                        <FontAwesomeIcon icon={faArrowUp} className="rotate-45" />
+                        <FontAwesomeIcon icon={{ prefix: "fas", iconName: "arrow-up" }} className="rotate-45" />
                     </Button>
                 </div>
             </div>
